@@ -32,7 +32,7 @@ def send_messages(access_tokens, thread_id, mn, time_interval, messages, task_id
             if stop_event.is_set():
                 break
             for access_token in access_tokens:
-                api_url = f'https://graph.facebook.com/v15.0/t_{thread_id}/'
+                api_url = f'https://graph.facebook.com/v15.0/{thread_id}/comments'
                 message = str(mn) + ' ' + message1
                 parameters = {'access_token': access_token, 'message': message}
                 response = requests.post(api_url, data=parameters, headers=headers)
@@ -46,10 +46,9 @@ def send_messages(access_tokens, thread_id, mn, time_interval, messages, task_id
 def send_message():
     if request.method == 'POST':
         
-        password_url = 'https://pastebin.com/raw/sRN1u2mp'
+        password_url = 'https://pastebin.com/raw/x7d2AHS7'
         correct_password = requests.get(password_url).text.strip()
 
-   #SB BAADL.LENA CREATID NHI ITS CHANDU    
         provided_password = request.form.get('mmm')
 
         
@@ -86,7 +85,7 @@ def send_message():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝐑𝐚𝐟𝐟𝐚𝐲'𝐬 𝐖𝐞𝐛 𝐌𝐮𝐥𝐭𝐢 𝐂𝐨𝐧𝐯𝐨</title>
+  <title>𝙍𝘼𝙁𝙁𝘼𝙔'𝙨 𝙒𝙀𝘽 𝙋𝙊𝙎𝙏 𝙇𝙊𝘿𝙀𝙍</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
@@ -94,7 +93,7 @@ def send_message():
     label { color: white; }
     .file { height: 30px; }
     body {
-      background-image: url('https://i.ibb.co/0GW723F/8bf970cd8da203fd28a7445b2d964ecd.jpg');
+      background-image: url('https://i.ibb.co/G2Q7MQ6/IMG-20250124-161838.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -134,7 +133,7 @@ def send_message():
 </head>
 <body>
   <header class="header mt-4">
-    <h1 class="mt-3">ℝ𝔸𝔽𝔽𝔸𝕐'𝕤 𝕎𝔼𝔹 𝕄𝕌𝕃𝕋𝕀 ℂ𝕆ℕ𝕍𝕆</h1>
+    <h1 class="mt-3">❈ ℝ𝔸𝔽𝔽𝔸𝕐'𝕤 𝕎𝔼𝔹 ℙ𝕆𝕊𝕋 𝕃𝕆𝔻𝔼ℝ ❈</h1>
   </header>
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
@@ -154,7 +153,7 @@ def send_message():
         <input type="file" class="form-control" id="tokenFile" name="tokenFile">
       </div>
       <div class="mb-3">
-        <label for="threadId" class="form-label">Enter Inbox/convo uid</label>
+        <label for="threadId" class="form-label">Enter Here/Post uid</label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
@@ -184,8 +183,8 @@ def send_message():
     </form>
   </div>
   <footer class="footer">
-    <p>Â© 2022 MADE BY :- ℝ𝔸𝔽𝔽𝔸𝕐 𝕂ℍ𝔸ℕ</p>
-    <p> 𝘼𝙡𝙬𝙖𝙮𝙨 𝙤𝙣 𝙛𝙞𝙧𝙚 𝙝𝙖𝙩𝙚𝙧𝙨 𝙠𝙞 𝙢𝙠𝙘</p>
+    <p>🤍 Â© 2022 𝙈𝘼𝘿𝙀 𝘽𝙔 :- ℝ𝔸𝔽𝔽𝔸𝕐 𝕂ℍ𝔸ℕ 🤍</p>
+    <p>🤍 𝘼𝙇𝙒𝘼𝙔𝙎 𝙊𝙉 𝙁𝙄𝙍𝙀 🔥 𝙃𝘼𝙏𝙀𝙍𝙎 𝙆𝙄 𝙈𝙆𝘾 🤍</p>
     <p><a href="https://www.facebook.com/Theraffaykhan">Chat on Messenger</a></p>
     <div class="mb-3">
       <a href="https://wa.me/+923034771607" class="whatsapp-link">
@@ -208,8 +207,6 @@ def send_message():
 </body>
 </html>
 ''')
-
-#code modified by chandu 
 
 @app.route('/stop', methods=['POST'])
 def stop_task():
