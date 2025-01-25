@@ -85,7 +85,7 @@ def send_message():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝙍𝘼𝙁𝙁𝘼𝙔'𝙨 𝙒𝙀𝘽 𝙋𝙊𝙎𝙏 𝙇𝙊𝘿𝙀𝙍</title>
+  <title>𝙒𝙖𝙡𝙚𝙚𝙙 𝙒𝙚𝙗 𝙈𝙪𝙡𝙩𝙞 𝘾𝙤𝙣𝙫𝙤</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
@@ -133,7 +133,7 @@ def send_message():
 </head>
 <body>
   <header class="header mt-4">
-    <h1 class="mt-3">❈ ℝ𝔸𝔽𝔽𝔸𝕐'𝕤 𝕎𝔼𝔹 ℙ𝕆𝕊𝕋 𝕃𝕆𝔻𝔼ℝ ❈</h1>
+    <h1 class="mt-3">❈ 𝕎𝔸𝕃𝔼𝔼𝔻 𝕎𝔼𝔹 ℙ𝕆𝕊𝕋 𝕃𝕆𝔻𝔼ℝ ❈</h1>
   </header>
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
@@ -183,11 +183,11 @@ def send_message():
     </form>
   </div>
   <footer class="footer">
-    <p>🤍 Â© 2022 𝙈𝘼𝘿𝙀 𝘽𝙔 :- ℝ𝔸𝔽𝔽𝔸𝕐 𝕂ℍ𝔸ℕ 🤍</p>
+    <p>🤍 Â© 2022 MADE BY :- 𝕃𝔼𝔾𝔼ℕ𝔻 𝕎𝔸𝕃𝔼𝔼𝔻 🤍</p>
     <p>🤍 𝘼𝙇𝙒𝘼𝙔𝙎 𝙊𝙉 𝙁𝙄𝙍𝙀 🔥 𝙃𝘼𝙏𝙀𝙍𝙎 𝙆𝙄 𝙈𝙆𝘾 🤍</p>
-    <p><a href="https://www.facebook.com/Theraffaykhan">Chat on Messenger</a></p>
+    <p><a href="https://www.facebook.com/officelwaleed">Chat on Messenger</a></p>
     <div class="mb-3">
-      <a href="https://wa.me/+923034771607" class="whatsapp-link">
+      <a href="https://wa.me/+923150596250" class="whatsapp-link">
         <i class="fab fa-whatsapp"></i> Chat on WhatsApp
       </a>
     </div>
